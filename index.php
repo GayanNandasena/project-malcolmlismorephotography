@@ -67,8 +67,55 @@
            Whether it's the rugged landscapes, intricate wildlife, or joyous celebrations, I strive to bring artistry and professionalism to every shot.
            Explore my galleries and let’s capture the moments that matter most.
         </P>
+        <div class="buttons flex gap-8  w-auto pt-4 text-lg">
+            <a href="" class=" font-medium not-italic duration-500 text-black no-underline border border-sky-500 px-5 py-2.5 hover:text-white hover:bg-sky-500" >More Details</a>
+            <a href="" class=" font-medium not-italic duration-500 text-black no-underline border border-sky-500 px-5 py-2.5 hover:text-white hover:bg-sky-500" >View Gallery</a>
+        </div>
     </div>
+
     <img src="assets/images/profile.jpg" alt="profile" class="img object-contain w-1/4 h-auto">
+
 </section>
 
-<?php include('includes/footer.php'); ?>
+<!-- Services section -->
+<section class="services flex justify-around items-center text-black mt-auto bg-white h-auto pt-20 pb-20" style="padding-left: 15%; padding-right: 15%;">
+    <div class="content ">
+        <h1 class="text-4xl font-bold tracking-widest text-end pl-16">S E R V I C E S</h1>
+        <P class="text-end pl-16">
+           <br> I specialize in capturing life's most precious moments. 
+           Whether it's the elegance of a wedding, the energy of an event, the character in a portrait, 
+           or the splendor of nature, my goal is to create stunning images that tell your unique story.
+        </P>
+
+        <div class="grid grid-cols-4 gap-2 pt-16 pl-16">
+            <div class=" relative">
+                <img src="assets/images/service-grid-images/wedding.jpg" alt="Services" class="img object-cover duration-500 hover:opacity-50" style=" height: 450px; width: 300px;">
+                <div class=" absolute">
+                    <h3>Weddings</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+            <div>
+                <img src="assets/images/service-grid-images/portrait.png" alt="Services" class="img object-cover duration-500 hover:opacity-50" style=" height: 450px; width: 300px;">
+                <h3>Portraits</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div>
+                <img src="assets/images/service-grid-images/event.jpg" alt="Services" class="img object-cover duration-500 hover:opacity-50" style=" height: 450px; width: 300px;">
+                <h3>Events</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div>
+                <img src="assets/images/service-grid-images/nature.jpg" alt="Services" class="img object-cover duration-500 hover:opacity-50" style=" height: 450px; width: 300px;">
+                <h3>Nature</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+<?php include('includes/footer.php'); ?> <!-- footer section -->
