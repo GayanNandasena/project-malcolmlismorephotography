@@ -1,0 +1,11 @@
+{
+  "name": "malcolm-lismore-photography",
+  "version": "1.0.0",
+  "description": "A portfolio website for Malcolm Lismore Photography, showcasing photography works and providing contact information.",
+  "scripts": {
+    "build": "tailwindcss build -o assets/css/styles.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^2.2.16"
+  }
+}
