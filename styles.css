@@ -38,4 +38,21 @@ body{
     .dropdown_menu{
         display: block;
     }
+
+    .about-me{
+        flex-direction: column;
+    }
+
+    .about-me .content{
+        padding-left: 0;
+        padding-right: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-me .img{
+        padding-top: 10px;
+        height: 300px;
+        width: 300px;
+    }
 }
