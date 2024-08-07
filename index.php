@@ -67,9 +67,9 @@
            Whether it's the rugged landscapes, intricate wildlife, or joyous celebrations, I strive to bring artistry and professionalism to every shot.
            Explore my galleries and let’s capture the moments that matter most.
         </P>
-        <div class="buttons flex gap-8  w-auto pt-4 text-lg">
+        <div class="buttons flex gap-8  w-auto pt-4 text-sm xl:text-lg items-center xl:justify-start justify-center">
             <a href="" class=" font-medium not-italic duration-500 text-black no-underline border border-sky-500 px-5 py-2.5 hover:text-white hover:bg-sky-500" >More Details</a>
-            <a href="" class=" font-medium not-italic duration-500 text-black no-underline border border-sky-500 px-5 py-2.5 hover:text-white hover:bg-sky-500" >View Gallery</a>
+            <a href="" class=" font-medium not-italic duration-500 text-black no-underline border border-sky-500 px-5 py-2.5 hover:text-white hover:bg-sky-500" >Contact Me</a>
         </div>
     </div>
 
@@ -114,6 +114,63 @@
 
     </div>
 </section>
+
+
+<!-- Portfolio highlights section -->
+ <section class="portfolio-highlights flex justify-around items-center text-black mt-auto bg-white h-auto pt-20 pb-20" style="padding-left: 15%; padding-right: 15%;">
+    <div class="content px-16 text-end">
+        <h1 class=" text-4xl font-bold tracking-widest">H I G H L I G H T S</h1>
+        <P class=" tracking-wide">
+           <br> Explore a selection of my favorite works, capturing the essence of nature, the joy of celebrations, and the beauty of everyday moments.
+            Visit the gallery for more stunning visuals.
+        </P>
+        <div class="buttons flex gap-8  w-auto pt-4 text-sm xl:text-lg items-center xl:justify-end justify-center">
+            <a href="packages.php" class=" font-medium not-italic duration-500 text-black no-underline border border-sky-500 px-5 py-2.5 hover:text-white hover:bg-sky-500" >Packages</a>
+            <a href="gallery.php" class=" font-medium not-italic duration-500 text-black no-underline border border-sky-500 px-5 py-2.5 hover:text-white hover:bg-sky-500" >View Gallery</a>
+        </div>
+    </div>    
+    <div id="gallery" class="relative w-full mt-12 xl:w-[32rem]" data-carousel="slide">
+        <!-- Carousel wrapper -->
+        <div class="carousel-wrapper relative overflow-hidden rounded-md  h-96 xl:w-[32rem] w-auto">
+            <div class="hidden duration-700 ease-in-out w-auto" data-carousel-item>
+                <img src="assets/images/highlights/1.png" class="absolute block w-auto h-full object-cover top-0 left-0" alt="">
+            </div>
+            <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                <img src="assets/images/highlights/2.jpg" class="absolute block w-full h-full object-cover top-0 left-0" alt="">
+            </div>
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="assets/images/highlights/3.jpg" class="absolute block w-full h-full object-cover top-0 left-0" alt="">
+            </div>
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="assets/images/highlights/4.jpg" class="absolute block w-full h-full object-cover top-0 left-0" alt="">
+            </div>
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="assets/images/highlights/5.jpg" class="absolute block w-full h-full object-cover top-0 left-0" alt="">
+            </div>
+        </div>
+        <!-- Slider controls -->
+        <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                </svg>
+                <span class="sr-only">Previous</span>
+            </span>
+        </button>
+        <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                </svg>
+                <span class="sr-only">Next</span>
+            </span>
+        </button>
+    </div>
+
+
+
+
+ </section>
 
 
 
