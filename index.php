@@ -1,6 +1,8 @@
 <?php include('includes/header.php'); ?>  <!-- header section -->
 <?php include('includes/navbar.php'); ?>  <!-- navbar section -->
 
+<body class="bg-[url('assets/images/cover.jpg')] bg-cover bg-no-repeat bg-center bg-fixed">
+
 <!-- hero section -->
 <div class="hero-section text-left h-auto flex flex-col justify-center items-start text-white mt-80" style="margin-left: 15%; margin-right: 15%;">
     <h1 class=" text-5xl font-bold tracking-wide">MALCOLM LISMORE</h1>
