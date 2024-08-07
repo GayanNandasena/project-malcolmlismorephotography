@@ -57,6 +57,7 @@
         </li>
 </ul>
 
+
 <!-- about me section -->
 <section class="about-me flex justify-around items-center text-black mt-80 bg-white h-auto pt-20 pb-20" style="padding-left: 15%; padding-right: 15%;">
     <div class="content px-16 ">
@@ -68,14 +69,15 @@
            Explore my galleries and let’s capture the moments that matter most.
         </P>
         <div class="buttons flex gap-8  w-auto pt-4 text-sm xl:text-lg items-center xl:justify-start justify-center">
-            <a href="" class=" font-medium not-italic duration-500 text-black no-underline border border-sky-500 px-5 py-2.5 hover:text-white hover:bg-sky-500" >More Details</a>
-            <a href="" class=" font-medium not-italic duration-500 text-black no-underline border border-sky-500 px-5 py-2.5 hover:text-white hover:bg-sky-500" >Contact Me</a>
+            <a href="" class=" font-medium not-italic duration-500 text-sky-500 no-underline border border-sky-500 px-5 py-2.5 hover:text-white hover:bg-sky-500" >More Details</a>
+            <a href="" class=" font-medium not-italic duration-500 text-sky-500 no-underline border border-sky-500 px-5 py-2.5 hover:text-white hover:bg-sky-500" >Contact Me</a>
         </div>
     </div>
 
     <img src="assets/images/profile.jpg" alt="profile" class="img object-contain w-1/4 h-auto">
 
 </section>
+
 
 <!-- Services section -->
 <section class="services flex justify-around items-center text-black mt-auto bg-white h-auto pt-20 pb-20" style="padding-left: 15%; padding-right: 15%;">
@@ -125,8 +127,8 @@
             Visit the gallery for more stunning visuals.
         </P>
         <div class="buttons flex gap-8  w-auto pt-4 text-sm xl:text-lg items-center xl:justify-end justify-center">
-            <a href="packages.php" class=" font-medium not-italic duration-500 text-black no-underline border border-sky-500 px-5 py-2.5 hover:text-white hover:bg-sky-500" >Packages</a>
-            <a href="gallery.php" class=" font-medium not-italic duration-500 text-black no-underline border border-sky-500 px-5 py-2.5 hover:text-white hover:bg-sky-500" >View Gallery</a>
+            <a href="packages.php" class=" font-medium not-italic duration-500 text-sky-500 no-underline border border-sky-500 px-5 py-2.5 hover:text-white hover:bg-sky-500" >Packages</a>
+            <a href="gallery.php" class=" font-medium not-italic duration-500 text-sky-500 no-underline border border-sky-500 px-5 py-2.5 hover:text-white hover:bg-sky-500" >View Gallery</a>
         </div>
     </div>    
     <div id="gallery" class="relative w-full mt-12 xl:w-[32rem]" data-carousel="slide">
@@ -173,6 +175,31 @@
  </section>
 
 
-
+<!-- Message us Section -->
+ <section class="message-us justify-around items-center text-black mt-40 bg-white h-auto pt-20 pb-20" style="padding-left: 15%; padding-right: 15%; ">
+    <div class="content text-center pl-0 lg:pl-16">
+        <h1 class="text-2xl xl:text-4xl font-bold tracking-widest">M E S S A G E - U S</h1>
+        <P class="">
+           <br> Need a quick response?<br><br>
+           Message us to reach out directly. Simply fill out your name, email and message. 
+           Select "Bookings" for appoinment-related inquiries. For more comprehensive communication, visit our main contact page.
+        </P>
+        <form action="#" class="space-y-8 pt-12">
+          <div>
+              <label for="name" class="block mb-2 text-sm font-medium text-black">Your Name</label>
+              <input type="text" id="name" class="shadow-sm text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 bg-white dark:border-sky-500 placeholder-sky-300 " placeholder="Enter your name" required>
+          </div>
+          <div>
+              <label for="email" class="block mb-2 text-sm font-medium text-black">Your email</label>
+              <input type="email" id="email" class="shadow-sm text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 bg-white dark:border-sky-500 placeholder-sky-300 " placeholder="example@email.com" required>
+          </div>
+          <div class="sm:col-span-2">
+              <label for="message" class="block mb-2 text-sm font-medium text-black">Your message</label>
+              <textarea id="message" rows="6" class="shadow-sm text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 bg-white dark:border-sky-500 placeholder-sky-300 " placeholder="write your Message"></textarea>
+          </div>
+          <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-sky-500 bg-white hover:bg-sky-500 border hover:text-white border-sky-500 sm:w-fit duration-500 hover:scale-110 focus:ring-4 focus:outline-none focus:ring-primary-300 ">Send message</button>
+      </form>
+    </div>
+ </section>
 
 <?php include('includes/footer.php'); ?> <!-- footer section -->
