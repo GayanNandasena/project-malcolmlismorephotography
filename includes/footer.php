@@ -15,6 +15,9 @@
                     <a href="packages.php" class="hover:underline me-4 md:me-6">Packages</a>
                 </li>
                 <li>
+                    <a href="bookings.php" class="hover:underline me-4 md:me-6">Bookings</a>
+                </li>
+                <li>
                     <a href="contact.php" class="hover:underline">Contact</a>
                 </li>
             </ul>
