@@ -4,11 +4,11 @@
 <body class="about-page bg-black max-lg:p-0">
     <div class="bio text-white bg-black h-auto mt-36 flex flex-col lg:flex-row mb-8" style="margin-left: 5%; margin-right: 5%;">
         <div class="profile">
-            <h1 class=" text-4xl  lg:text-6xl tracking-normal">B I O G R A P H Y</h1><br>
+            <h1 class=" text-4xl lg:text-6xl tracking-normal">B I O G R A P H Y</h1><br>
             <div class="h-1 w-[17.5rem] lg:w-[28rem] bg-gradient-to-r from-sky-500 to-blue-500"></div>
             <img src="assets/images/profile.jpg" alt="profile" class=" lg:pr-12 pt-12">
         </div>
-        <div class="content lg:tracking-widest text-center lg:text-left h-auto pt-10 lg:pt-0">
+        <div class="content lg:tracking-widest text-center lg:text-left h-auto pt-10 lg:pt-32">
             <h3 class=" text-xl">Hi, I'm Malcolm Lismore.</h3><br>
             <p>Welcome to my photography world! I'm Malcolm Lismore, a dedicated freelance photographer based on the stunning North West coast of Scotland. 
                My passion is capturing the natural beauty that surrounds us and the special moments that make life memorable.
@@ -24,14 +24,15 @@
         </div>
     </div>
 
-    <div class="testimonial h-auto mt-36 mb-20">
+<!-- Testimonials -->
+    <div class="testimonial h-auto mt-36 mb-20" style="margin-left: 5%; margin-right: 5%;">
         <div class=" flex flex-col items-center text-center">
             <h1 class=" text-3xl lg:text-6xl tracking-normal text-white">T E S T I M O N I A L</h1><br>
             <div class=" text-center h-1 w-[17rem] lg:w-[35rem] bg-gradient-to-r from-sky-500 to-blue-500"></div><br><br>
             <p class=" text-white">I am honored to have worked with amazing clients who have trusted me to capture their special moments. Here are some of their kind words, reflecting their experiences and satisfaction with my work.</p>
         </div>
 
-        <div class="container md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 grid grid-cols-1 grid-rows-6 gap-4 pt-20">
+        <div class="testimonial-wrapper md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 grid grid-cols-1 grid-rows-6 gap-4 pt-20">
 
             <div class=" text-white text-center border border-sky-500 p-5 shadow-sm shadow-white">
                 <h1 class=" font-bold">"Malcolm captured the essence of our wedding day perfectly.</h1><br>

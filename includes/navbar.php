@@ -20,7 +20,7 @@
 
     <div class="dropdown_menu absolute right-8 top-20 h-0 w-80 bg-transparent backdrop-blur-lg rounded-3xl overflow-hidden transition-height text-white">
         <!-- <li class=" flex justify-center items-center p-3"><a href="" class=" duration-500 hover:tracking-widest hover:text-sky-500 hover:scale-105">Home</a></li> -->
-        <li class=" flex justify-center items-center p-3"><a href="bookings.php" class=" duration-500 hover:tracking-widest hover:text-sky-500 hover:scale-105">BOOKINGS</a></li>
+        <li class=" flex justify-center items-center p-3"><a href="index.php" class=" duration-500 hover:tracking-widest hover:text-sky-500 hover:scale-105">HOME</a></li>
         <li class=" flex justify-center items-center p-3"><a href="about.php" class=" duration-500 hover:tracking-widest hover:text-sky-500 hover:scale-105">ABOUT</a></li>
         <li class=" flex justify-center items-center p-3"><a href="gallery.php" class=" duration-500 hover:tracking-widest hover:text-sky-500 hover:scale-105">GALLERY</a></li>
         <li class=" flex justify-center items-center p-3"><a href="contact.php" class=" duration-500 hover:tracking-widest hover:text-sky-500 hover:scale-105">CONTACT</a></li>
