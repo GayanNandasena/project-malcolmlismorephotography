@@ -1,8 +1,8 @@
 <?php include('includes/header.php'); ?>  <!-- header section -->
 <?php include('includes/navbar.php'); ?>  <!-- navbar section -->
 
-<body class="about-page bg-black max-lg:p-0" style=" padding-left: 5%; padding-right: 5%;">
-    <div class="bio text-white bg-black h-auto mt-36 flex flex-col lg:flex-row mb-8">
+<body class="about-page bg-black max-lg:p-0">
+    <div class="bio text-white bg-black h-auto mt-36 flex flex-col lg:flex-row mb-8" style="margin-left: 5%; margin-right: 5%;">
         <div class="profile">
             <h1 class=" text-4xl  lg:text-6xl tracking-normal">B I O G R A P H Y</h1><br>
             <div class="h-1 w-[17.5rem] lg:w-[28rem] bg-gradient-to-r from-sky-500 to-blue-500"></div>

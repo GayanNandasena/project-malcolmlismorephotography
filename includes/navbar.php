@@ -5,7 +5,7 @@
 
         <ul class="links flex gap-8  w-auto">
             <!-- <li><a href="" class=" font-medium not-italic text-lg duration-500 text-white no-underline hover:text-sky-500 hover:scale-105 hover:tracking-widest " >Home</a></li> -->
-            <li><a href="bookings.php" class=" font-medium not-italic text-lg duration-500 text-white no-underline hover:text-sky-500 hover:scale-105 hover:tracking-widest " >BOOKINGS</a></li>
+            <li><a href="index.php" class=" font-medium not-italic text-lg duration-500 text-white no-underline hover:text-sky-500 hover:scale-105 hover:tracking-widest " >HOME</a></li>
             <li><a href="about.php" class=" font-medium not-italic text-lg duration-500 text-white no-underline hover:text-sky-500 hover:scale-105 hover:tracking-widest " >ABOUT</a></li>
             <li><a href="gallery.php" class=" font-medium not-italic text-lg duration-500 text-white no-underline hover:text-sky-500 hover:scale-105 hover:tracking-widest " >GALLERY</a></li>
             <li><a href="contact.php" class=" font-medium not-italic text-lg duration-500 text-white no-underline hover:text-sky-500 hover:scale-105 hover:tracking-widest " >CONTACT</a></li>

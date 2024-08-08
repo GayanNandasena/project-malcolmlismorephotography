@@ -3,7 +3,7 @@
 
 <body class="bg-[url('assets/images/cover.jpg')] bg-cover bg-no-repeat bg-center bg-fixed ">
 <!-- <body class="bg-gray-900"> -->
-    <div class="container mx-auto px-4 py-8">
+    <div class="container mx-auto px-4 py-8" >
         <h1 class="text-3xl font-bold text-center mb-8 text-white tracking-widest pt-12">G A L L E R Y</h1>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-2">
             <?php

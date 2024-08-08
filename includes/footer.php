@@ -6,6 +6,9 @@
             </a>
             <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                 <li>
+                    <a href="index.php" class="hover:underline me-4 md:me-6">Home</a>
+                </li>
+                <li>
                     <a href="about.php" class="hover:underline me-4 md:me-6">About</a>
                 </li>
                 <li>
@@ -13,9 +16,6 @@
                 </li>
                 <li>
                     <a href="packages.php" class="hover:underline me-4 md:me-6">Packages</a>
-                </li>
-                <li>
-                    <a href="bookings.php" class="hover:underline me-4 md:me-6">Bookings</a>
                 </li>
                 <li>
                     <a href="contact.php" class="hover:underline">Contact</a>
