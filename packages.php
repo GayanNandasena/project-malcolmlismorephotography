@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <?php include('includes/header.php'); ?>  <!-- header section -->
 <?php include('includes/navbar.php'); ?>  <!-- navbar section -->
 
@@ -64,7 +65,7 @@
         <h1 class=" text-2xl lg:text-5xl font-bold tracking-widest pt-12 text-center">B O O K I N G S</h1>
         <p class="pt-10 text-sm lg:text-lg text-center">Secure your special moments with ease. Book your photography session now and let’s create unforgettable memories together.</p>
 
-        <form class="max-w-md mx-auto px-10 pt-12 pb-16">
+        <form class="max-w-md mx-auto px-10 pt-12 pb-16" action="process_booking.php" method="POST" >
             <div class="grid md:grid-cols-2 md:gap-6">
                 <div class="relative z-0 w-full mb-5 group">
                     <input type="text" name="first_name" id="first_name" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
@@ -103,7 +104,7 @@
             </div>
             <div class="relative z-0 w-full mb-5 group">
                 <label for="underline_select" class="sr-only">Underline select</label>
-                <select id="underline_select" class="block py-2.5 px-0 w-full text-sm ansparent border-0 border-b-2 border-gray-200 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer">
+                <select id="underline_select" name="underline_select" class="block py-2.5 px-0 w-full text-sm ansparent border-0 border-b-2 border-gray-200 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer">
                     <option selected>Choosen Package</option>
                     <option value="essential">Essential</option>
                     <option value="standard">Standard</option>
@@ -120,6 +121,24 @@
             
             <button type="submit" class="py-4 px-5 text-sm font-medium text-center text-sky-500 bg-white hover:bg-sky-500 border hover:text-white border-sky-500 sm:w-fit duration-500 hover:scale-110 focus:ring-4 focus:outline-none focus:ring-primary-300 ">Request Booking</button>
         </form>
+
+        <!-- Display the SweetAlert message -->
+        <?php if (isset($_SESSION['message'])): ?>
+            <script>
+                Swal.fire({
+                    position: "center",
+                    icon: "<?= $_SESSION['msg_type'] ?>",
+                    title: "<?= $_SESSION['message'] ?>",
+                    showConfirmButton: false,
+                    timer: 4500
+                });
+            </script>
+            <?php
+            // Unset session variables after displaying the message
+            unset($_SESSION['message']);
+            unset($_SESSION['msg_type']);
+            ?>
+        <?php endif; ?>
 
         <p class="text-sm text-center pb-20">Thank you for reaching out! We will contact you soon to discuss your photography needs and finalize the details.</p>
 
