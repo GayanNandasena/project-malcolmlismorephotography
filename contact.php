@@ -94,10 +94,12 @@
 
         </div>
         
+        <!-- Embed Map -->
         <div class="">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34329.67594682603!2d-4.263057198744742!3d57.468035742118154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488f715b2d17de2b%3A0x624309d12e3ec43d!2sInverness%2C%20UK!5e0!3m2!1sen!2slk!4v1723118713295!5m2!1sen!2slk" 
-            class=" pt-20 w-[300px] h-[500px] lg:w-[750px] lg:h-[600px] md:w-[650px]" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            class=" mt-20 w-[300px] h-[500px] lg:w-[750px] lg:h-[600px] md:w-[650px] bg-white" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+
     </div>
 
     <div class="message-us">
